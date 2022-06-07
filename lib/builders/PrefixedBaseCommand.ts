@@ -1,6 +1,6 @@
 import { Command } from 'detritus-client'
 
-export class BaseCommand<
+export class PrefixedBaseCommand<
 	ParsedArgsFinished = Command.ParsedArgs
 > extends Command.Command<ParsedArgsFinished> {
 	permissionsIgnoreClientOwner = true
