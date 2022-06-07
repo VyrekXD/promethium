@@ -5,7 +5,7 @@
 	"main": "build/index.js",
 	"scripts": {
 		"prepare": "pnpm run build",
-		"build": "swc ./src -d build"
+		"build": "swc ./lib -d build"
 	},
 	"keywords": [
 		"promethium-framework"
