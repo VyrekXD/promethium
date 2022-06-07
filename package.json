@@ -1,5 +1,5 @@
 {
-	"name": "promethium-framework",
+	"name": "promethium",
 	"version": "0.0.1",
 	"description": "A framework for building discord bots",
 	"main": "build/index.js",
@@ -8,7 +8,8 @@
 		"build": "swc ./lib -d build"
 	},
 	"keywords": [
-		"promethium-framework"
+		"promethium-framework",
+		"promethium"
 	],
 	"author": "Vyrek",
 	"license": "Apache-2.0",
