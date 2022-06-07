@@ -23,7 +23,7 @@
 		"typescript": "^4.7.3"
 	},
 	"dependencies": {
-		"detritus-client": "github:VyrekXD/detritus-client#0.16.4"
+		"detritus-client": "github:VyrekXD/detritus-client#0.16.4",
+		"kufa": "^1.6.6"
 	}
 }
-
