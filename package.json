@@ -3,10 +3,12 @@
 	"version": "0.0.2",
 	"description": "A framework for building discord bots",
 	"main": "build/index.js",
+	"type": "module",
 	"scripts": {
 		"prepare": "pnpm run build && pnpm run build:types",
 		"build": "swc ./lib -d build",
-		"build:types": "tsc --emitDeclarationOnly --declarationDir build"
+		"build:types": "tsc --emitDeclarationOnly --declarationDir build",
+		"test": "node ./test/index.js"
 	},
 	"keywords": [
 		"promethium-framework",
@@ -24,3 +26,4 @@
 		"detritus-client": "github:VyrekXD/detritus-client#0.16.4"
 	}
 }
+
