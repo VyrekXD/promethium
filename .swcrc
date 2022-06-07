@@ -29,5 +29,5 @@
 		},
 		"keepClassNames": true
 	},
-	"minify": false
+	"minify": true
 }

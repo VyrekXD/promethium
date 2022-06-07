@@ -4,8 +4,9 @@
 	"description": "A framework for building discord bots",
 	"main": "build/index.js",
 	"scripts": {
-		"prepare": "pnpm run build",
-		"build": "swc ./lib -d build"
+		"prepare": "pnpm run build && pnpm run build:types",
+		"build": "swc ./lib -d build",
+		"build:types": "tsc --emitDeclarationOnly --declarationDir build"
 	},
 	"keywords": [
 		"promethium-framework",

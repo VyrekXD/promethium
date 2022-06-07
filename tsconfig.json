@@ -16,7 +16,8 @@
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
 		"skipLibCheck": true,
-		"experimentalDecorators": true
+		"experimentalDecorators": true,
+		"declaration": true
 	},
 	"exclude": ["./test"]
 }
