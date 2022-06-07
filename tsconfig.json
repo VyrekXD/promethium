@@ -19,5 +19,5 @@
 		"experimentalDecorators": true,
 		"declaration": true
 	},
-	"exclude": ["./test"]
+	"exclude": ["./test", "./build"]
 }
