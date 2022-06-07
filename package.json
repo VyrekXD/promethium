@@ -1,6 +1,6 @@
 {
 	"name": "promethium-framework",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "A framework for building discord bots",
 	"main": "build/index.js",
 	"type": "module",
@@ -27,3 +27,4 @@
 		"kufa": "^1.6.6"
 	}
 }
+
