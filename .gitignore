@@ -9,3 +9,6 @@ build
 
 #pnpm
 pnpm-lock.yaml
+
+# custom tests
+test
