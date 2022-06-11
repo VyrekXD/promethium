@@ -1,6 +1,6 @@
 // Some code is from discord.js module
 //https://github.com/discordjs/discord.js/blob/main/packages/discord.js/src/util/Util.js
-export function splitMessage(
+export function splitString(
 	text: string,
 	{ maxLength = 2_000, char = '\n', prepend = '', append = '' } = {}
 ) {
