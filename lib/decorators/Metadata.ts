@@ -1,8 +1,8 @@
 interface Metadata {
-	isNsfw: boolean
-	isDevOnly: boolean
-	isGuildsOnly: boolean
-	category: string
+	isNsfw?: boolean
+	isDevOnly?: boolean
+	isGuildsOnly?: boolean
+	category?: string
 }
 
 export function Metadata(metadata: Metadata) {
