@@ -7,13 +7,9 @@ interface Metadata {
 
 export function Metadata(metadata: Metadata) {
 	return function (target: any): any {
+		const obj = { ...target.metadata, ...metadata }
 		return class extends target {
-			metadata = {
-				isNsfw: metadata.isNsfw ?? false,
-				isDevOnly: metadata.isDevOnly ?? false,
-				isGuildsOnly: metadata.isGuildsOnly ?? false,
-				category: metadata.category ?? ''
-			}
+			metadata = obj
 		}
 	}
 }
