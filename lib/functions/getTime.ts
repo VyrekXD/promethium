@@ -1,9 +1,13 @@
 export async function getTime(promise: Promise<any>) {
-	const start = Date.now()
+	try {
+		const start = Date.now()
 
-	await promise
+		await promise
 
-	const end = Date.now()
+		const end = Date.now()
 
-	return (end - start) / 1000
+		return (end - start) / 1000
+	} catch (e) {
+		throw e
+	}
 }
