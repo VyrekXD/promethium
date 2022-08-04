@@ -1,3 +1,3 @@
-export * from './Metadata.js'
-export * from './IsPrivate.js'
-export * from './CommandOptions.js'
+export * from './metadata.js'
+export * from './is-private.js'
+export * from './command-options.js'
