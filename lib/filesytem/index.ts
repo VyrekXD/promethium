@@ -1,2 +1,2 @@
 export * from './events.js'
-export * from './getFiles.js'
+export * from './get-files.js'
